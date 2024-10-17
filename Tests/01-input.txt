@@ -1,0 +1,7 @@
+# Example from the Iceberg Order Excercise
+
+# 100322: Buy 7500 shares @ 5103p
+B,100322,5103,7500
+
+# 100345: Sell 100000 (peak 10000) @ 5103p
+S,100345,5103,100000,10000

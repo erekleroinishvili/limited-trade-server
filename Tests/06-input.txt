@@ -1,0 +1,13 @@
+# SETmm Technical Description, page 24
+# 4.2.3.2 Passive iceberg order execution
+
+# Set up Order Book's initial state
+B,1,99,50000
+B,2,98,25500
+S,1001,100,10000
+S,1002,100,7500
+S,1003,101,20000
+B,101,100,100000,10000
+
+S,1004,100,10000
+S,1005,95,11000

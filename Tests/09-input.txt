@@ -1,0 +1,10 @@
+# Set up Order Book's initial state
+B,101,100,100000,10000
+B,1,100,5000
+B,201,100,100000,10000
+B,2,99,3000
+B,3,98,100000
+
+# Sell 11,000 shares @ 98p
+S,1001,98,11000
+# Iceberg Order 101 is refreshed and loses time priority.

@@ -1,0 +1,11 @@
+# Set up Order Book's initial state
+S,1101,100,100000,10000
+S,1102,100,100000,10000
+S,1103,100,100000,10000
+S,1104,100,100000,10000
+
+# Buy order will refresh iceberg sell orders 1101 and 1102
+# Thus orders 1101 and 1102 will lose time priority
+B,1,100,20000
+# Buy order will refresh all iceberg orders
+B,2,100,40000

@@ -1,0 +1,20 @@
+# SETmm Technical Description, page 22
+# 4.2.2 Benefits of iceberg orders
+
+# Create initial Order Book
+
+# Buy orders
+B,1,99,50000
+B,2,98,25500
+
+# Sell Orders
+S,1001,100,500
+S,1002,100,10000 # First tranche
+S,1003,103,100
+S,1004,105,20000
+
+# Buy order described on page 23.
+# "At Best" order is replaced with a Limit Order with sufficiently high price
+B,3,110,16000
+
+S,1005,100,10000 # Second tranche
